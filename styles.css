@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+
+.main-heading{
+  font-size: 16px;
+  margin: unset;
+}
+
+header, footer{
+  background-color:#2c3e50;
+  color:#fff;
+  padding: 20px;
+}
+
+#calendar {
+    max-width: 100%;
+    height: auto;
+    margin: 40px auto;
+}
+/* .equalHeight{
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+} */
+.box-details{
+  border: solid 1px #ddd;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 10%;
+  max-height: 70vh;
+  padding: 10px;
+}
+
+.rightSide{
+  margin:40px;
+}
+
+.share{
+  margin: 20px;
+}
+
+.share button{
+  padding:10px;
+  border: unset;
+  
+}
+
+.facebook{
+  background-color: #3b5998;
+  color: white;
+}
+
+.linkedin{
+  background-color: #007ab5;
+  color:white;
+}
+
+.year{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  display: block;
+}
+
+.fc .fc-button-group>.fc-button{
+  text-transform: uppercase;
+}
+
+.fc .fc-button{
+  text-transform: uppercase;
+}
+
+.event-color{background-color: #f7eded;}
+.conference-color{background-color: yellow;}
+.multiday-color{background-color: #3788d8;}
+
+@media screen and (max-width: 750px) {
+  .fc .fc-toolbar.fc-header-toolbar {
+    display: block;
+    text-align: center;
+}
+
+.fc-header-toolbar .fc-toolbar-chunk {
+    display: block;
+    margin:10px;
+}
+}
+
