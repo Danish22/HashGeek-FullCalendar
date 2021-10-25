@@ -1,10 +1,8 @@
 
-# Project Title
+# Hasgeek's Event Calandar built with FullCalendar.
 
-Hasgeek's Event Calandar.
 
 A basic interface built with FullCalendar.io to display events and confereces from two different data sources and custom attribtes (Extended Props).
-
 
 
 
