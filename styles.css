@@ -75,9 +75,9 @@ header, footer{
   text-transform: uppercase;
 }
 
-.event-color{background-color: #f7eded;}
-.conference-color{background-color: yellow;}
-.multiday-color{background-color: #3788d8;}
+.event-color{color: #f7eded; font-size: 20px;}
+.conference-color{color: yellow; font-size: 20px;}
+.multiday-color{color: #3788d8; font-size: 20px;}
 
 @media screen and (max-width: 750px) {
   .fc .fc-toolbar.fc-header-toolbar {

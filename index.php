@@ -6,6 +6,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="List of all the Hasgeeks Events and Conferences">
+  <meta name="keywords" content="Hasgeeks">
+  <meta name="author" content="Danish Dewani">
+<meta property="og:title" content="Checkout all the hasgeeks events" />
+<meta property="og:description" content="List of all hasgeeks events" />
+<meta property="og:image" content="https://scontent-bom1-2.xx.fbcdn.net/v/t1.6435-9/144767890_3775183322524898_4905735798325528996_n.jpg" />
 <link rel="icon" href="https://hasgeek.com/favicon.ico">
 <link rel="stylesheet" href="styles.css">
 <!--Sharer.php-->
@@ -29,16 +35,16 @@
     <div class="container text-center">    
         <div class="main" id="main">
             <div class="row">
-                <div class="col-md-8 ">
+                <div class="col-lg-8 col-md-8 col-sm-12">
                    <div id='calendar'></div>
                  </div>
-                <div class="col-md-4 ">
+                <div class="col-lg-4 col-md-4 col-sm-12">
                     <h3 class="rightSide">Details</h3>
                    <div class="box-details">
                     <small>Color Indexs</small>
-                    <p class="event-color"><span class="fc-list-event-dot" style="border-color: yellow;"></span> Events</p>
-                    <p class="conference-color">Conference</p>
-                    <p class="multiday-color">Multi Day Event</p>
+                    <p><span class="event-color">&#9632;</span>Events</p>
+                    <p ><span class="conference-color">&#9632;</span> Conference</p>
+                    <p><span class="multiday-color">&#9632;</span> Multi Day Event</p>
                     </div>
                     <div class="share">
                 <h5>📲 Share with your Friends</h5>
@@ -54,6 +60,7 @@
     <footer>
         <h2 class="year main-heading">Copyright &copy; <?php echo date(Y); ?> | All Rights Reserved</h2>
     </footer>
+    <!--BASIC BOOTSRTAP POPUP MODAL-->
     <div id="calendarModal" class="modal fade">
 <div class="modal-dialog">
     <div class="modal-content">
@@ -62,10 +69,15 @@
             <h4 id="modalTitle" class="modal-title">📅 Event Details</h4>
         </div>
         <div id="modalBody" class="modal-body"> 
-            <p>🙏🏻 Thank you for showing interest in the event. Below are the details for the event.</p>
-            <p id="event-title"></p>
+            <h5 id="event-title"></h5>
+            <p id="event-details"></p>
             <p id="event-start-date"></p>
             <p id="event-end-date"></p>
+            <p id="event-venue"></p>
+            <p id="event-city"></p>
+            <p id="event-google"></p>
+            <p id="event-funnel"></p>
+
         </div>
         <div class="modal-footer">
             <a id="eventUrl" class="btn btn-primary" target="_blank">Visit Website</a>
